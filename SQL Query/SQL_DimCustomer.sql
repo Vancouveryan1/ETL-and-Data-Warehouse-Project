@@ -1,0 +1,10 @@
+USE DWH_Project;
+
+CREATE TABLE DimCustomer (
+    CustomerID INT NOT NULL PRIMARY KEY,
+    CustomerName VARCHAR(50) NOT NULL,
+    Age INT NOT NULL,
+	Gender VARCHAR(50) NOT NULL,
+	City VARCHAR(50) NOT NULL,
+	NoHP VARCHAR(50) NOT NULL
+);
